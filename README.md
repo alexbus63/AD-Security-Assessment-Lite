@@ -1,5 +1,7 @@
 # Active Directory Security Assessment Lite
 
+PowerShell • Active Directory • Security Assessment
+
 Lightweight PowerShell-based Active Directory security assessment toolkit for rapid AD posture reviews, privilege exposure checks, stale object discovery, LAPS visibility validation, and executive-friendly reporting.
 
 > Community edition. Designed for read-only assessments and safe GitHub publishing.
