@@ -1,0 +1,28 @@
+{
+  "Metadata": {
+    "ToolName": "Active Directory Security Assessment Lite",
+    "Version": "1.0.0-community",
+    "RunDate": "2026-06-03T10:00:00"
+  },
+  "RiskSummary": {
+    "RiskScore": 48,
+    "RiskRating": "Medium",
+    "CriticalFindings": 1,
+    "HighFindings": 1,
+    "MediumFindings": 1,
+    "LowFindings": 0
+  },
+  "LDAPSigning": {
+    "DomainControllerCount": 2,
+    "RequireSigningCount": 1,
+    "NegotiateCount": 0,
+    "NotRequiredCount": 1,
+    "UnknownCount": 0
+  },
+  "AdminSDHolder": {
+    "ProtectedUserCount": 10,
+    "ProtectedGroupCount": 4,
+    "ProtectedComputerCount": 0,
+    "ProtectedObjectCount": 14
+  }
+}

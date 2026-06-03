@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Sample AD Security Assessment Lite Report</title></head>
+<body>
+<h1>Active Directory Security Assessment Lite</h1>
+<h2>Executive Summary</h2>
+<p><strong>Risk Score:</strong> 48 / 100</p>
+<p><strong>Risk Rating:</strong> Medium</p>
+<h2>Findings Summary</h2>
+<table border="1">
+<tr><th>Severity</th><th>Finding</th><th>Found</th><th>Evidence File</th></tr>
+<tr><td>Critical</td><td>LDAP signing is not required on one or more domain controllers</td><td>1</td><td>Evidence\LDAPSigning.csv</td></tr>
+<tr><td>High</td><td>AdminSDHolder protected objects detected</td><td>14</td><td>Evidence\AdminSDHolderProtectedObjects.csv</td></tr>
+<tr><td>Medium</td><td>Stale enabled user accounts found</td><td>7</td><td>Evidence\StaleUsers.csv</td></tr>
+</table>
+<h2>LDAP Signing - Found Values</h2>
+<table border="1"><tr><th>DomainController</th><th>LDAPServerIntegrity</th><th>Status</th></tr><tr><td>DC01.corp.example.local</td><td>0</td><td>Not required</td></tr></table>
+<h2>AdminSDHolder Protected Objects - Found Values</h2>
+<table border="1"><tr><th>ObjectType</th><th>SamAccountName</th><th>Enabled</th></tr><tr><td>User</td><td>svc_backup</td><td>True</td></tr></table>
+</body>
+</html>
